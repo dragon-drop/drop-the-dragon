@@ -1,0 +1,15 @@
+{
+  "name": "drop-the-dragon",
+  "version": "1.0.0",
+  "description": "A lightweight DOM and network util",
+  "main": "src/dropTheDragon.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "dom",
+    "ajax"
+  ],
+  "author": "john@dragondrop.uk",
+  "license": "ISC"
+}
