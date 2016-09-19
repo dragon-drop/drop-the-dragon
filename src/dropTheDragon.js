@@ -58,7 +58,7 @@ const dropTheDragon = {
 
   addClass(el, className) {
     if (!this.hasClass(el, className)) {
-      el.className += className;
+      el.className += ` ${className}`;
     }
   },
 
