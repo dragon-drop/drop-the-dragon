@@ -17,6 +17,6 @@ gulp.task('build', function () {
             min:'.js'
         }
     }))
-    .pipe(gzip())
+    // .pipe(gzip())
     .pipe(gulp.dest('./build/'))
 });

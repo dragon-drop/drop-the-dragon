@@ -116,6 +116,7 @@ const dropTheDragon = {
     httpRequest.open(configuration.method, configuration.url);
 
     if (configuration.data) {
+      httpRequest.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
       httpRequest.send(this.jsonToParams(configuration.data));
     } else {
       httpRequest.send();
