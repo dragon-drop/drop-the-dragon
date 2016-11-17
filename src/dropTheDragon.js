@@ -102,7 +102,7 @@ const dropTheDragon = {
         if (httpRequest.status === 200) {
           let data = httpRequest.responseText;
 
-          if (data.startsWith('{')) {
+          if (data.indexOf('{') === 0) {
             data = JSON.parse(data);
           }
 
